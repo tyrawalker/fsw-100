@@ -1,0 +1,22 @@
+.h1 {
+    color: darkgreen;
+}
+.headers > * {
+    font-family:Georgia; 
+    text-align: center; 
+ }
+ #link {
+     text-decoration:none; 
+ }
+ .caps > p {
+     text-transform: uppercase;
+ }
+ #link:hover{ 
+     text-decoration-line: underline;
+
+ }
+ #image {
+     float: left; 
+     padding-right: 15%; 
+ }
+ 
