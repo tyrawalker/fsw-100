@@ -1,0 +1,69 @@
+html{
+    background-color: blue;
+}
+img{
+    height:300px;
+    float: left;
+}
+.box1{
+    position: absolute;
+    top: 100px;
+    left:10px;
+    border:10px solid black;
+    padding:10px;
+    height:350px;
+    width: 90%;
+    background-color: lightblue;
+}
+
+.box2{ 
+        position: absolute;
+        top: 400px;
+        left:10px;
+        border:10px solid black;
+        padding:10px;
+        height:350px;
+        width: 90%;
+        background-color: lightblue;
+}
+.box3{ 
+    position: absolute;
+    top: 800px;
+    left:10px;
+    border:10px solid black;
+    padding:10px;
+    height:350px;
+    width: 90%;
+    background-color: lightblue;
+}
+
+.title{
+position: relative;
+left:10px;
+text-align: right;
+
+}
+
+h6{
+    position: relative;
+    font-weight: bolder;
+    color:red;
+    text-decoration-line: underline;
+    text-align: right;
+
+}
+
+.content{
+position: relative;
+left:10px;
+font-size: 20px;
+text-align: right;
+}
+
+.nav-bar{
+position: fixed;
+top:20px; 
+left:45%;
+background-color: white;
+text-decoration-color: red;
+}
