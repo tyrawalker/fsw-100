@@ -1,0 +1,92 @@
+.flex-container {
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch; 
+}
+
+    .flex-container > div:nth-child(1){
+        border:2px solid red; 
+        padding: 3px;
+        transition: background-color 2s;
+        transition:color 2s 1s;
+    }
+    .flex-container > div:nth-child(1):hover{
+        background-color: red;
+        color: white;
+    }
+
+
+
+    .flex-container > div:nth-child(2){
+        border:2px solid orangered; 
+        padding: 3px;
+        transition:text-transform 3s 1ms; 
+        transition: font-size 1s 2s;
+    }
+    .flex-container > div:nth-child(2):hover{
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    
+
+    .flex-container > div:nth-child(3){
+        border:2px solid yellow; 
+        padding: 3px;
+        height: 20px;
+        box-shadow: yellow;
+        transition:text-align 4s 1ms; 
+        transition:height 4s 1ms;
+    }
+    .flex-container > div:nth-child(3):hover {
+        text-align: center;
+        height:100px;
+    }
+        
+
+    .flex-container > div:nth-child(4){
+        border:2px solid green; 
+        background-color: green;
+        transition:font-style 1s 2s;
+        transition:background-color 2s 1s;
+    }
+    .flex-container > div:nth-child(4):hover{
+        font-style:bold; 
+        animation:mymove 5s infinite;
+
+    }
+
+    @keyframes mymove {
+        from {background-color: green;}
+        to {background-color: teal;}
+        to {background-color: pink;}
+    }
+
+
+    .flex-container > div:nth-child(5){
+        border:2px solid blue; 
+        transition:border-radius 2s 1s; 
+        transition: text-align 5s 1s;
+    }
+    .flex-container > div:nth-child(5):hover {
+        border-radius: 50%;
+        text-align:center;
+    }
+
+
+    .flex-container > div:nth-child(6){
+        border:2px solid blueviolet; 
+        padding:5px;
+        transition: color 2s 1s;
+        transition: font-size 2s 1s;
+    }
+    .flex-container > div:nth-child(6):hover {
+        font-size: 200px;
+        animation: flashdance 1s infinite;
+    }
+
+    @keyframes flashdance {
+        from {color: black;}
+        to {color:hotpink;}
+    }
