@@ -1,0 +1,113 @@
+html{
+    background-image: url("./header-image.jpg");
+}
+
+header{
+    font-family: 'aladin';
+    text-align: center;
+    height: 110px; 
+    }
+
+ .logo{
+     position: absolute;
+     left:10px;
+     height: 94px;
+    }
+
+ nav{
+     position:static; 
+     top: 100px; 
+    display: flex;
+    font-family: "aladin";
+    justify-content: space-evenly;
+    background-color: white;
+    opacity: 70%;
+    }   
+
+    nav>div:hover{
+        color:red; 
+    }
+
+    nav>div:visited{
+        color: blue; 
+    }
+
+    
+  main{
+        font-family: 'aladin';
+        text-align: center;
+        }
+
+        .about{
+            position: relative; 
+            top: 20px; 
+            left: 7%; 
+            border-radius: 12px;
+            height:100px; 
+            border: 2px solid black; 
+            resize: both;
+            overflow: auto;
+            background-color: white;
+            opacity: 70%; 
+            width:85%; 
+
+        }
+
+    table{
+        position:relative; 
+        left:7%; 
+        width:85%;
+           
+        }
+
+table, th, tr, td{
+    border:2px solid black; 
+    padding:2px;
+    text-align: center; 
+    
+}
+
+button{
+    border-radius: 12px;;
+    transition:background-color 1s;
+    transition:font-size 1s;  
+    text-decoration-line: none;
+    
+}
+
+button:hover{
+    font-size:20px; 
+    animation: flashdance 1s infinite; 
+    
+}
+
+@keyframes flashdance {
+    from {background-color: white;}
+    to {background-color:red;}
+}
+
+.gallery{
+    position: relative;
+    top: 30px;   
+ }
+
+ video{
+     border:2px solid black; 
+ }
+
+img{ 
+    object-fit: cover;
+}
+
+footer{
+    position:relative; 
+    top:30px; 
+    bottom: 20px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+}
