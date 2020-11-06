@@ -1,0 +1,27 @@
+html{
+    background-image: url("./header-image.jpg");
+    color: black; 
+}
+
+header{
+    font-family: 'aladin';
+    text-align: center;
+    height: 110px; 
+    }
+
+ .logo{
+     position: absolute;
+     left:10px;
+     height: 94px;
+    }
+
+    
+ nav{
+    position:static; 
+    top: 100px; 
+   display: flex;
+   font-family: "aladin";
+   justify-content: space-evenly;
+   background-color: white;
+   opacity: 70%;
+   }   

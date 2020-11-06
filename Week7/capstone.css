@@ -1,5 +1,6 @@
 html{
     background-image: url("./header-image.jpg");
+    color: black; 
 }
 
 header{
@@ -23,14 +24,10 @@ header{
     background-color: white;
     opacity: 70%;
     }   
-
-    nav>div:hover{
-        color:red; 
-    }
-
-    nav>div:visited{
-        color: blue; 
-    }
+.link{
+    color: #551A8B; 
+    text-decoration-line: underline;
+}
 
     
   main{
