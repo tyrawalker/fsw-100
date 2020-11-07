@@ -9,6 +9,19 @@ header{
     height: 110px; 
     }
 
+ .fa-facebook {
+        position: relative;
+        right:5px;
+        top:5px;
+        color:black;
+        width: 50px;
+}
+.fa-instagram{
+    position:relative; 
+    top:5px; 
+    color:black; 
+    width: 60px;
+}
  .logo{
      position: absolute;
      left:10px;

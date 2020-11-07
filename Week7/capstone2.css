@@ -25,6 +25,10 @@ header{
    background-color: white;
    opacity: 70%;
    }   
+   .link{
+    color: #551A8B; 
+    text-decoration-line: underline;
+}
    
    #grid-container{
        padding:10px;

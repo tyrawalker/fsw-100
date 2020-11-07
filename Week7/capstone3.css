@@ -22,4 +22,63 @@ header{
    justify-content: space-evenly;
    background-color: white;
    opacity: 70%;
-   }   
+   }
+
+   .link{
+    color: #551A8B; 
+    text-decoration-line: underline;
+}
+ h2{
+     text-align: center;
+ }
+table, th, tr, td{
+    border:2px solid black; 
+    font-family: "Aladin";
+    text-align: center; 
+}
+table{
+    position: relative;
+    top:10px; 
+    left:30%; 
+    width:420px; 
+    background-color: white;
+    opacity: 70%;
+}
+.international{
+    position: relative;
+    top:50px;
+    text-align: center;
+    background-color: white;
+    opacity: 70%;
+    border:2px solid black;
+}
+
+button{position: relative;
+    left:45%;
+    top:20px;
+    border-radius: 12px;;
+    transition:background-color 1s;
+    transition:font-size 1s;  
+    text-decoration-line: none;
+    
+}
+
+button:hover{
+    font-size:20px; 
+    animation: flashdance 1s infinite; 
+    
+}
+
+@keyframes flashdance {
+    from {background-color: white;}
+    to {background-color:red;}
+}
+ul{
+    list-style-type: none;
+}
+footer{position: relative;
+    top:40px; 
+    background-color: black;
+    color: white;
+    text-align: center;
+}
